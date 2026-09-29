@@ -20,7 +20,7 @@ evilib.o: evilib.c++ evilib.h
 	@echo Compiling $@
 	$(CC) $(OPTIONS) $(INCLUDES) -o $@ -c $<
 
-evilib: evilib.o
+evilib: evilib.o 
 	@echo Making $@
 	$(CC) -g $(OPTIONS) evilib.o $(LL)EVILib.a $(LIBDIRS) $(LIBS) -o $@
 

@@ -13,7 +13,7 @@
 #include <sys/time.h>
 #include <math.h>
 
-#include "../src/EVILib.h"
+#include "../src/EVI-D70.h"
 
 //--------------
 
