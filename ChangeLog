@@ -1,0 +1,8 @@
+Build 3, 15/04/2003:
+  Now EVILib use all buffers of the camera.
+
+Build 2, 31/03/2003:
+  Replace semaphore by mutex.
+
+Build 1, 28/03/2003:
+  Change log added.

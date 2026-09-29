@@ -1,0 +1,24 @@
+.SILENT:
+
+CC = g++
+AR = ar
+MV = mv
+RM = rm -f
+CP = cp
+
+WHERE = $(PWD)/
+
+OPTIONS = -Wall -ffast-math -O6 -D_SMP_ -DMODULE -D_KERNEL_ -fexpensive-optimizations
+MFLAGS = all
+
+OBJECT_DIR = obj/
+LIBRARY_DIR = src/
+INCLUDE_DIR = src/
+
+LO = $(WHERE)$(LEVEL)$(OBJECT_DIR)
+LL = $(WHERE)$(LEVEL)$(LIBRARY_DIR)
+LI = $(WHERE)$(LEVEL)$(INCLUDE_DIR)
+
+LIBDIRS = -L/usr/X11R6/lib -L$(LL)
+
+LIBS = -lXext -lpthread

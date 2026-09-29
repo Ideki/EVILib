@@ -1,0 +1,16 @@
+Basic Installation
+==================
+
+   These are generic installation instructions.
+
+The simplest way to compile this package is:
+
+  1. Type `make all' to compile the package.
+
+  2. You can remove the program binaries and object files from the
+        source code directory by typing `make clean'.
+
+Installation Names
+==================
+
+  By default, the EVILib library is linked in the ./lib directory
